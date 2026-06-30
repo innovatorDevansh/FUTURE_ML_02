@@ -106,7 +106,7 @@ header {
     font-size: 18px;
     font-weight: bold;
     transition: 0.3s;
-}
+}x
 
 .stButton > button:hover {
     background: linear-gradient(90deg, #1d4ed8, #2563eb);
