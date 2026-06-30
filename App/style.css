@@ -1,0 +1,286 @@
+/* =========================================================
+   Support Ticket Intelligence System
+   Custom CSS
+   ========================================================= */
+
+/* Main App */
+.main {
+    background-color: #f5f7fb;
+}
+
+/* Main Container */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Hide Streamlit Default Menu & Footer */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Main Title */
+.main-title {
+    text-align: center;
+    color: #1f2937;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    text-align: center;
+    color: #6b7280;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Section Headers */
+.section-title {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Input Box */
+/* ===============================
+   Input Text Boxes
+================================ */
+
+.stTextInput input {
+
+    background-color: white !important;
+
+    color: black !important;
+
+    font-size: 16px !important;
+
+    border: 1px solid #b0b0b0 !important;
+
+    border-radius: 10px !important;
+}
+
+.stTextArea textarea {
+
+    background-color: white !important;
+
+    color: black !important;
+
+    font-size: 16px !important;
+
+    border: 1px solid #b0b0b0 !important;
+
+    border-radius: 10px !important;
+}
+
+/* Placeholder Text */
+
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+
+    color: #808080 !important;
+
+    opacity: 1 !important;
+}
+
+/* Predict Button */
+.stButton > button {
+    width: 100%;
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #1d4ed8, #2563eb);
+    transform: scale(1.02);
+}
+
+/* Card Layout */
+.result-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Category Card */
+.category-card {
+    background: #eef4ff;
+    border-left: 6px solid #2563eb;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #111827;
+}
+
+.category-card h2,
+.category-card h3,
+.category-card h4,
+.category-card p {
+    color: #111827 !important;
+}
+
+/* Priority Card */
+.priority-card {
+    background: #fff4e5;
+    border-left: 6px solid #ff9800;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #111827;
+}
+
+.priority-card h2,
+.priority-card h3,
+.priority-card h4,
+.priority-card p {
+    color: #111827 !important;
+}
+
+/* Team Card */
+.team-card {
+    background: #e8f5e9;
+    border-left: 6px solid #4caf50;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #111827;
+}
+
+.team-card h2,
+.team-card h3,
+.team-card h4,
+.team-card p {
+    color: #111827 !important;
+}
+
+/* SLA Card */
+.sla-card {
+    background: #fdecea;
+    border-left: 6px solid #f44336;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #111827;
+}
+
+.sla-card h2,
+.sla-card h3,
+.sla-card h4,
+.sla-card p {
+    color: #111827 !important;
+}
+
+/* Confidence Card */
+.confidence-card {
+    background: #f3e8ff;
+    border-left: 6px solid #7c3aed;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #111827;
+}
+
+.confidence-card h2,
+.confidence-card h3,
+.confidence-card h4,
+.confidence-card p {
+    color: #111827 !important;
+}
+
+/* Metric Value */
+.metric-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* Metric Label */
+.metric-label {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Success Message */
+.success-box {
+    background: #d1fae5;
+    padding: 15px;
+    border-radius: 10px;
+    color: #065f46;
+    margin-top: 15px;
+}
+
+/* Warning Message */
+.warning-box {
+    background: #fef3c7;
+    padding: 15px;
+    border-radius: 10px;
+    color: #92400e;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1f2937;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid #d1d5db;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .metric-value {
+        font-size: 22px;
+    }
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
